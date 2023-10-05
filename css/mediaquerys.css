@@ -1,0 +1,25 @@
+@media only screen and (min-width: 300px) and (max-width:576px){
+   aside{
+    display: none;
+  }
+  .wrap{
+    width: 30%;
+    left: 45%;
+  }
+  section#s1>div{
+    width: 100%;
+  }
+  header>div#aju{
+    margin-left : 230px ;
+    float:left;} 
+    header>div#us {
+    margin-left:px ;
+    float:left; }
+    section#s2{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 577px) and (max-width:1000px){
+
+}
