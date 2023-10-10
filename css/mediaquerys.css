@@ -9,8 +9,13 @@
   section#s1>div{
     width: 100%;
   }
+  section#s1>div>h2{
+    margin-left: 2%;
+    font-size: 1rem;
+    margin-top: 7vh;
+  }
   header>div#aju{
-    margin-left : 230px ;
+    margin-left : 40% ;
     float:left;} 
     header>div#us {
     margin-left:px ;
@@ -18,8 +23,69 @@
     section#s2{
         width: 100%;
     }
+    section#s1>div#pro{
+    width: 10vh;
+   height: 10vh;
+   margin-right: 2%;
+   margin-top: -12vh;
+    }
+    section#s2{
+      width: 100%;
+    
+  }
+  section#s2>div#Marca{
+    width: 80%;
+
+    margin-left: 10%;
+ 
 
 }
-@media only screen and (min-width: 577px) and (max-width:1000px){
+section#s2>div#Marca>h3{
+  color: var(--fondo);
+  margin-top: 12px;
+  margin-left:  45%;
+  float: left;
+  }
+  .Marca{
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 20;
+    height: 80%;
+    float: left;
+    background-color: var(--fondo);
+    border-radius: 8px;
+}
+.Marca img{
+  width: 65%;
+}
+section#s2>div#Rec{
+  width: 80%;
+ 
+  
+  margin-left: 10%;
+ 
+}
+section#s2>div#Rec>h3{
+  color: var(--fondo);
+  margin-top: 12px;
+  margin-left:  35%;
+  float: left;
+  } 
+  section#s99{
+    float: left;
+    width: 100%;
+    height: 200vh;
+    background-color: var(--primaryColor);
+    margin-top: 200px;
+margin-bottom: 20px;
+}
 
+  .card {
+  padding: 0%;
+    width: 90%;
+    margin-left: 5%;
+    height:55vh ;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width:1000px){
 }
