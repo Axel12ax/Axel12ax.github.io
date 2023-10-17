@@ -809,7 +809,7 @@ margin-bottom: 20px;
   
   .box-log {
     margin-left:40%;
-    height: 250px;
+    height: 300px;
     width: 20%;
     margin-top: 10rem;
     background:var(--primaryColor);
@@ -828,6 +828,7 @@ margin-bottom: 20px;
   .username, .password {
     position: relative;
     margin-top: 30px;
+    color: var(--feftColor);
   
   }
   input {
@@ -838,7 +839,7 @@ margin-bottom: 20px;
     border: none;
     border-bottom: 1px solid var(--fondo);
     font-size: 16px;
-    color: var(--primaryColor) ;
+    color: var(--feftColor) ;
  
   }
   label {
@@ -1007,4 +1008,14 @@ margin-left: 20%;
 .liii{
   margin-top: 0px;
 }
-
+#alerta,#alertc{
+  padding: 5px;
+  color: rgb(250, 222, 222);
+  background-color: rgb(208, 42, 42);
+  margin-top: 10px;
+  border-radius: 5px;
+  display: none;
+}
+#alertc{
+  background-color: rgb(0, 255, 0);
+}
