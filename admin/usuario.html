@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickcar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Header -->
+    <header>
+        <nav class=" px-4 navbar navbar-expand-lg " style="background-color: #049A8F;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <i class="fa fa-car"></i> Clickcar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                     <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn" type="submit" >Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- end Header -->
+    <div class="row" >
+        <!-- menu -->
+        <aside class="col-md-2 p-4" >
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" aria-current="page" href="#">
+                    <ifa class="fa fa-home mx-1"style="width: 25px;"></ifa>Inicio</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="#"> 
+                   <i class="fa fa-bag-shopping mx-1"style="width: 25px;"></i>Producos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="./usuario.html">
+                    <i class="fa fa-users mx-1" style="width: 25px;"></i>Usuario</a>
+                </li>
+
+
+               
+              </ul>
+        </aside>
+        <!-- end menu -->
+<!-- Main container -->
+        <main class="col-10">
+    <h1>Registrar</h1>
+<div class="row">
+    <form action="">
+        <div class="mb-3 col-6">
+            <label for="txtNombre" class="form-label">Nombre</label>
+            <input placeholder="Nombre" type="text" class="form-control" id="txtNombre" aria-describedby="emailHelp">
+           
+          </div>    
+           <div class="mb-3 col-6">
+            <label for="txtcan" class="form-label">Apellido</label>
+            <input placeholder="Apellido" type="text" class="form-control" id="txtcan" aria-describedby="emailHelp">
+           
+          </div> 
+          <div class="mb-3 col-6">
+            <label for="txtPrice" class="form-label">edad</label>
+            <input placeholder="edad" max="100" min="1" type="number" class="form-control" id="txtPrice" aria-describedby="emailHelp">
+           
+          </div>    
+          <div class="mb-3 col-6">
+            <label for="exampleInputEmail1" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+          </div> 
+         
+          <div class="mb-3 col-6">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 col-6">
+    <label for="exampleInputPassword1" class="form-label">Confirmar Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+            
+      
+           
+          </div> 
+          <div class="mb-3 col-6"><button class="btn btn-dark">Aceptar</button></div>
+    </form>
+</div>
+        </main>
+        <!-- end main -->
+    </div>
+</body>
+</html>

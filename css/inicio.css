@@ -842,7 +842,7 @@ margin-bottom: 20px;
     color: var(--feftColor) ;
  
   }
-  label {
+  .label {
     font-size: 18px;
     letter-spacing: 1px;
     position: absolute;

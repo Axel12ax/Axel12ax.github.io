@@ -3,7 +3,7 @@ window.onload=()=>{
 var cont=0
 
     var url='https://pokeapi.co/api/v2/'
-    fetch(url+'pokemon?limit=30')
+    fetch(url+'pokemon?limit=200')
     .then(response=>response.json())
     .then(data=>{
           var lista = document.querySelector('#lista')

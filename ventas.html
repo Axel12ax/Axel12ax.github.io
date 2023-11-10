@@ -5,138 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clickcar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/inicio.css">
+    <!-- <link rel="stylesheet" href="./css/inicio.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
 </head>
 <body>
     <header>
-        <div id="logo">
+      
+        <header>
+            <nav class=" px-4 p-4 navbar navbar-expand-lg " style="background-color: #049A8F;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> <i class="fa fa-car"></i> Clickcar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Nombre
+                        </a>
+                         <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./VentaCarro.html">Publicar Venta</a></li>
+                          <li><a class="dropdown-item" href="#">Eliminar Producto</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2 " style="width: 400px;" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-dark" type="submit" >Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="row " >
+          <!-- menu -->
+          <aside class=" col-2 p-4" style="float: right;" >
+              <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link  text-muted"  href="./index.html">
+                      <i class="fa fa-magnifying-glass mx-1"style="width: 25px;"></i>Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-muted" href="./Favorito.html"> 
+                     <i class="fa fa-star mx-1"style="width: 25px;"></i>Favoritos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="./historial.html"> 
+                     <i class="fa fa-clock-rotate-left mx-1"style="width: 25px;"></i>Historial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" href="./ventas.html"> 
+                     <i class="fa fa-tag mx-1"style="width: 25px;"></i>Ventas</a>
+                  </li>
+                 <li class="nav-item">
+                      <a class="nav-link text-muted" href="./compras.html">
+                        <i class="fa fa-money-bill mx-1" style="width: 25px;"></i>Compras</a>
+                    </li>
+        
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="./Chat.html">
+                        <i class="fa fa-message mx-1" style="width: 25px;"></i>Mensaje</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-muted" href="./Registro.html">
+                        <i class="fa fa-users mx-1" style="width: 25px;"></i>Usuario</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="./Ayuda.html">
+                        <i class="fa fa-circle-question mx-1" style="width: 25px;"></i>Ayuda</a>
+                    </li>
+        
+                </ul>
+          </aside>
+          <main class=" row col-10" id="Con">
 
-        </div>
-        <div id="aju">
-            <i class="fa fa-gear"></i>
-        </div>
-        <div id="us">
-            <i class="fa fa-user"></i>
-        </div>
-        <div class="wrap">
-            <div class="search">
-               <input type="text" class="searchTerm" placeholder="Buscar">
-               <button type="submit" class="searchButton">
-                 <i class="fa fa-search"></i>
-              </button>
-            </div>
-         </div>
-    </header>
-    <aside>
-        <div>
-          <div id="title">
-            <h1>Clickcar</h1>
-        </div>
-        </div>
-      <nav>
-<ul>
-    <li>
-      <i class="fa fa-magnifying-glass"></i>
-        <a href="./index.html">Inicio</a>
-        
-    </li>
-    <li>
-      <i class="fa fa-star"></i> 
-        <a href="./Favorito.html">Favoritos</a>
-        
-    </li>
-    <li>
-       <i class="fa fa-clock-rotate-left"></i>
-        <a href="./historial.html"> Historial</a>
-       
-    </li>
-    <li> 
-         <i class="fa fa-tag"></i> 
-        <a href="./ventas.html">Ventas</a>
+            <div class="col-12"><div class="col-12  mt-5" style=" border-radius: 10px;  margin-left: 340px; width: 450px; color: aliceblue; background-color: black; text-align: center;"><h1>Ventas</h1></div></div>
+
+               
+          </main>
+          <script>
+            window.onload=()=>{
+
+
+var p=3
+var cont=document.querySelector("#Con")
+
+for(let i=0;i<p;i++){
+   cont.innerHTML +=`<div class="card card m-5 col-3" >
+   <img src="./img/descarga.jpeg" class="card-img-top" alt="...">
+   <div class="card-body">
+     <h5 class="card-title">Card title</h5>
+     <p class="card-text">Some quick exampleccccccc text to build on the card title and make up the bulk of the card's content.slosnfdnsodvnosaovosabvojbsavbkjsabkvjbksjdbvkjs</p>
+   </div>
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item">Precio</li>
+     <li class="list-group-item">Kilometraje</li>
     
-    </li>
-    <li> 
-       <i class="fa fa-money-bill"></i> 
-        <a href="./compras.html">Compras</a>
-      
-    </li>
-    <li>
-        <i class="fa fa-message"></i> 
-        <a href="./Chat.html">Mensage</a>
-    </li>
-    <li> 
-       <i class="fa fa-circle-question"></i>
-        <a href="">Ayuda</a>
-      
-    </li>
-</ul>
-</nav>  
-    </aside>
-</aside>
-<section id="s4">
-    <div >
-        <h1>Ventas</h1>
-    </div>
-</section>
-    </body>
-    <section id="listpooa">
-        
-            <section class="card">
-              <div class="product-image">
-                <img src="https://i.ibb.co/cNWqxGx/red.png" alt="OFF-white Red Edition" draggable="false" />
-              </div>
-              <div class="product-info">
-                <h2>Nike X OFF-white</h2>
-                <p>The 10: Air Jordan 1 off-white - Chicago</p>
-                <div class="price">$999</div>
-              </div>
-              <div class="btn">
-                <button class="buy-btn">Buy Now</button>
-                <button class="fav">
-                  <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-                  </svg>
-                </button>
-              </div>
-            </section>
-            <section class="card card-blue">
-              <div class="product-image">
-                <img src="https://i.ibb.co/0JKpmgd/blue.png" alt="OFF-white Blue Edition" draggable="false" />
-              </div>
-              <div class="product-info">
-                <h2>Nike X OFF-white</h2>
-                <p>Air Jordan 1 Retro High "Off-White - UNC" sneakers</p>
-                <div class="price">$1599</div>
-              </div>
-              <div class="btn">
-                <button class="buy-btn">Buy Now</button>
-                <button class="fav">
-                  <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-                  </svg>
-                </button>
-              </div>
-            </section>
-               <section class="card card-blue">
-              <div class="product-image">
-                <img src="https://i.ibb.co/cNWqxGx/red.png" alt="OFF-white Red Edition" draggable="false" />
-              </div>
-              <div class="product-info">
-                <h2>Nike X OFF-white</h2>
-                <p>The 10: Air Jordan 1 off-white - Chicago</p>
-                <div class="price">$999</div>
-              </div>
-              <div class="btn">
-                <button class="buy-btn">Buy Now</button>
-                <button class="fav">
-                  <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
-                  </svg>
-                </button>
-              </div>
-            </section>
-         
-    </section>
-    
-    </body>
-    </html>
+   </ul>
+   <div class="card-body">
+     <button class="btn btn-dark">Comprar</button>
+   </div>
+ </div>`
+}
+}
+          </script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+        </html>
