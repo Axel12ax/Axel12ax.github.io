@@ -72,41 +72,43 @@
         <main class="col-10">
 <h1>Agregar producos</h1>
 <div class="row">
-    <form action="">
+    <form action="./php/insertar.php" method="POST">
         <div class="mb-3 col-6">
             <label for="txtNombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="txtNombre" aria-describedby="emailHelp">
+            <input name="name" type="text" class="form-control" id="txtNombre" aria-describedby="emailHelp">
            
           </div>    
           
           <div class="mb-3 col-6">
             <label for="txtPrice" class="form-label">Precio</label>
-            <input placeholder="Introduce el Precio" min="1" type="number" class="form-control" id="txtPrice" aria-describedby="emailHelp">
+            <input name="price"  placeholder="Introduce el Precio" min="1" type="number" class="form-control" id="txtPrice" aria-describedby="emailHelp">
            
           </div>    
           
           <div class="mb-3 col-6">
             <label for="txtcan" class="form-label">Cantidad</label>
-            <input placeholder="Introduce la cantidad" min="1" type="number" class="form-control" id="txtcan" aria-describedby="emailHelp">
+            <input name="stock" placeholder="Introduce la cantidad" min="1" type="number" class="form-control" id="txtcan" aria-describedby="emailHelp">
            
           </div> 
           
           <div class="mb-3 col-6">
             <label for="txtcate" class="form-label"></label>
-            <select name="" id="txtcate" class="form-control">
+            <select name="cate" id="txtcate" class="form-control">
            <option value="">Carro</option>
            <option value="">Troca</option>
            <option value="">Camioneta</option>
            <option value="">Camoin</option> </select>
           </div>     
           <div class="mb-3 col-6">
-            <label for="txtfile" class="form-label">Cantidad</label>
-            <input  min="1" type="file" class="form-control" id="txtcan" aria-describedby="emailHelp">
+            <label for="txtfile" class="form-label">Archivo</label>
+            <input name="img" min="1" type="file" class="form-control" id="txtcan" aria-describedby="emailHelp">
            
           </div> 
-          <div class="mb-3 col-6"><button class="btn btn-dark">Aceptar</button></div>
+          <div class="mb-3 col-6"><button class="btn" type="reset">Aceptar</button></div>
+          <div class="mb-3 col-6"><button class="btn btn-dark" type="submit">Aceptar</button></div>
     </form>
 </div>
+        
         </main>
         <!-- end main -->
     </div>
